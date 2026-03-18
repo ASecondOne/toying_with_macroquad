@@ -137,6 +137,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b5b646652bf6661599e1da8901b3b9522896f01e736bad5f723fe7a3a27f899d"
 
 [[package]]
+name = "lidar_macroquad"
+version = "0.1.0"
+dependencies = [
+ "macroquad",
+]
+
+[[package]]
 name = "macroquad"
 version = "0.4.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -155,13 +162,6 @@ name = "macroquad_macro"
 version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "64b1d96218903768c1ce078b657c0d5965465c95a60d2682fd97443c9d2483dd"
-
-[[package]]
-name = "macroquad_thingy"
-version = "0.1.0"
-dependencies = [
- "macroquad",
-]
 
 [[package]]
 name = "malloc_buf"
